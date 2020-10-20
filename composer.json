@@ -2,7 +2,7 @@
   "name": "internations/php-implied",
   "description": "Prevent the installation of superfluous PHP polyfills",
   "require": {
-    "php": ">=7.4.0,<=8.0",
+    "php": ">=7.4.0 <8.0",
     "ext-ctype": "*",
     "ext-intl": "*",
     "ext-mbstring": "*"
