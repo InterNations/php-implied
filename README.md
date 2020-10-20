@@ -7,6 +7,9 @@ The package requires a particular PHP version and a particular set of PHP extens
 for polyfills that no longer need to be installed. This `replace` section prevents the installation of said
 dependencies.
 
+## How to use
+Run `composer require internations/php-implied:~<PHP version>`, so e.g. `composer require internations/php-implied:~7.4.0` to install the metapackage.
+
 ## Versioning
  Keep version of the metapackage in sync with PHP’s major/minor target version. So `internations/php-implied: 7.4.0`
  targets `php: >=7.4.0 && <7.5`
